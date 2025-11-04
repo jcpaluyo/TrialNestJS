@@ -57,7 +57,6 @@ export class AuthService {
     return { message: 'Logged out successfully' };
   }
 
-
   async refreshTokens(refreshToken: string) {
     try {
       const decoded: any = jwt.verify(
