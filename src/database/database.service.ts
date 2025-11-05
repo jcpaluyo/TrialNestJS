@@ -13,7 +13,7 @@ export class DatabaseService implements OnModuleInit, OnModuleDestroy {
       host: process.env.DB_HOST || 'mysql-31f4baac-gbox-45fa.d.aivencloud.com',
       port: +(process.env.DB_PORT || 17827),
       user: process.env.DB_USER || 'avanadmin',
-      password: process.env.DB_PASSWORD || 'AVNs_dwB91jmbUq2zFwa4NNq',
+      password: process.env.DB_PASSWORD || '',
       database: process.env.DB_NAME || 'defaultdb',
       waitForConnections: true,
       connectionLimit: 10,
